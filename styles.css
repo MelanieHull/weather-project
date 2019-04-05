@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1C5D99;
+}
+
+input {
+  height: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  width: 40%;
+  background: #F6F6F6;
+  border: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+button {
+  border-radius: 0;
+  height: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  background: #F6F6F6;
+  border: none;
+  margin: 3px;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+button:hover {
+  color: #A31621;
+}
+
+.formFocus {
+  outline: 3px solid #A31621;
+  box-shadow: 0 0 10px #A31621;
+}
+
+.hidden {
+  display: none;
+}
